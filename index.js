@@ -15,10 +15,10 @@ let hoje = new Date(data).toUTCString();
 alert(`${nomeCliente} - Valor da compra: ${valorDaCompra} - Quantidade: ${ltsGasolina}l - Data: ${hoje} `);
 
 alert(`Atividade 2`)
-let grausCelsius = parseInt(prompt("Qual valor em GRAUS CELSIUS ?"));
-let grausFahrenheit = parseFloat( (9 * grausCelsius + 160) / 5 );
+let grausCelsius1 = parseInt(prompt("Qual valor em GRAUS CELSIUS ?"));
+let grausFahrenheit1 = parseFloat( (9 * grausCelsius1 + 160) / 5 );
  
-alert(`O valor ${grausCelsius}ºc em Fahrenheit é ${grausFahrenheit}.`);
+alert(`O valor ${grausCelsius1}ºc em Fahrenheit é ${grausFahrenheit1}.`);
 
 alert(` Atividade 3 `)
 let grausFahrenheit = parseFloat(prompt("Qual o valor em GRAUS FAHRENHEIT?"));
