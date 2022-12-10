@@ -76,7 +76,8 @@ alert(` Atividade 9 `)
 let text = (prompt("Insira aqui o texto desejado..."));
 
 let primeiraLetra = text[0];
-let ultimaLetra = text.slice(-1);
+let ultimaLetra = text([text.length - 1]);
+// let ultimaLetra = text.slice [-1]
 
 alert(`A primeira letra de ${text} é ${primeiraLetra} e a última letra é ${ultimaLetra}.`);
 
